@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>portfolio website</title>
+<style>
+body{
+width:100%;
+background:black;
+margin:0;
+}
+*{
+box-sizing:border-box;
+}
+.h2{
+font-size:0%;
+color:white;
+margin:20%;
+height:300px;
+position:relative;
+animation-name:ex1;
+animation-duration:2s;
+animation-fill-mode:forwards;
+animation-iteration-count:1;
+}
+.container1{
+background:black;
+height:700px;
+}
+@keyframes ex1{
+0%{left:0%;top:10%;}
+100%{font-size:300%;left:-15%;top:-10%;}
+}
+.nav{
+padding:50px;
+overflow:hidden;
+position:sticky;
+position:-webkit-sticky;
+}
+.nav a{
+top:0;
+display:inline-block;
+color:white;
+padding:10px;
+text-decoration:none;
+float:right;
+}
+.nav a:hover{
+font-size:20px;
+}
+.container2{
+background:white;
+height:500px;
+width:100%;
+}
+h2{
+text-align:center;
+padding:10px;
+}
+#black{
+background:black;
+color:white;
+}
+hr{
+width:50%;
+}
+.parent{
+text-align:center;
+font-weight:bold;
+font-size:22px;
+}
+.parent > ul{
+display:inline-block;
+}
+li{
+padding:10px;
+}
+.footer{
+padding:80px;
+background:grey;
+}
+</style>
+</head>
+<body>
+<div class="container1">
+<div class="nav">
+<a href="#contact">CONTACT</a>
+<a href="#education">EDUCATION</a>
+<a href="#skills" target="_top">SKILLS</a>
+<a href="#projects">PROJECTS</a>
+<a href="about.html">ABOUT</a>
+</div>
+<h2 class="h2"> Hey I'm Bhavya</h2>
+</div>
+<div class="container2">
+<h2 id="projects">PROJECTS</h2></div>
+<div class="container2" id="black">
+<h2 id="skills">SKILLS</h2>
+</div>
+<div class="container2">
+<h2 id="education">EDUCATION</h2>
+<hr>
+<div class="parent">
+<ul>
+<li>Certified Fullstack Developer From KodNest Bangalore</li>
+<br>
+<hr>
+<li>MGR Arts and Science College , Hosur</li>
+<p>BCA [2018 - 2021]</p>
+<hr>
+<li>Government Higher Secondary School , Bukkasagaram</li>
+<p> PCBM [2016 - 2018]</p>
+</div>
+<div class="footer" id="contact"></div>
+</body>
+</html>
